@@ -4,6 +4,7 @@ module.exports = {
     node: true
   },
   extends: [
+    "@vue/eslint-config-prettier",
     "plugin:vue/essential",
     "plugin:prettier/recommended",
     "eslint:recommended"
@@ -14,9 +15,9 @@ module.exports = {
   rules: {
     'no-console': 'warn',
     'no-debugger':'warn',
-    'no-var': 'warn',
+    'no-var': 'error',
     'no-unused-vars': 'warn',
-    'prefer-const': 'warn',
+    'prefer-const': 'error',
     "prettier/prettier": [
       "error",
       {
