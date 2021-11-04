@@ -1,0 +1,1 @@
+Basic eslint-configuration for w3geo projects with vue

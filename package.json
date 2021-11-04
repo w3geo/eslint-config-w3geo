@@ -1,0 +1,21 @@
+{
+  "name": "eslint-plugin-w3geo",
+  "version": "1.0.0",
+  "description": "eslint-plugin with basic configurations for vue projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Robert Orthofer",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "peerDependencies": {
+    "eslint": "^6 || ^7.2.0",
+    "prettier": ">= 1.13"
+  }
+}
