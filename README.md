@@ -12,7 +12,7 @@ in the `.eslintrc`:
 extends: ['w3geo']
  ```
 
-To enable save-on-lint and other Vue features in VS Code, make sure your `settings.json` looks something like this:
+To enable save-on-lint and other Vue features in VS Code, make sure you have the ESLint and Vetur extensions installed, and your `settings.json` looks something like this:
 ```json
 {
     "extensions.ignoreRecommendations": true,
