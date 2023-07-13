@@ -10,6 +10,7 @@
   "author": "Robert Orthofer",
   "license": "MIT",
   "dependencies": {
+    "@babel/eslint-parser": "^7.22.9",
     "@vue/eslint-config-prettier": "^7.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
